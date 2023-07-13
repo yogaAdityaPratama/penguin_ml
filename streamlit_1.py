@@ -127,7 +127,7 @@ def viz(st):
         fig.savefig('scaterplot.png', transparent=True)
         st.pyplot(fig)
     with col2:
-        penguin_df = pd.read_csv('../penguins.csv')
+        penguin_df = pd.read_csv('penguins.csv')
         penguin_df = penguin_df.dropna()
         output = penguin_df.species
         features = penguin_df[['island', 'bill_length_mm', 'bill_depth_mm',
