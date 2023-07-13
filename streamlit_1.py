@@ -15,7 +15,7 @@ def pred(st):
     <style>
         [data-testid='stAppViewContainer']{
             font-style: roboto;
-            background-image: url(https://www.freepik.com/free-photos-vectors/penguins-carving-ice);
+            background-image: url(https://images4.alphacoders.com/206/206954.jpg);
             background-size: cover;
         }
         [data-testid='stSidebar']{
@@ -96,7 +96,7 @@ def viz(st):
     <style>
         [data-testid='stAppViewContainer']{
             font-style: roboto;
-            background-image: url(https://www.freepik.com/free-photos-vectors/penguins-carving-ice);
+            background-image: url(https://images4.alphacoders.com/206/206954.jpg);
             background-size: cover;
             
         }
