@@ -116,7 +116,7 @@ def viz(st):
                                     ['bill_length_mm', 'bill_depth_mm', 'flipper_length_mm', 'body_mass_g'])
         selected_y_var = st.selectbox('what about the y?',
                                     ['bill_depth_mm', 'bill_length_mm', 'flipper_length_mm', 'body_mass_g'])
-        penguins_df = pd.read_csv('../penguins.csv')
+        penguins_df = pd.read_csv('penguins.csv')
         markers = {"Adelie": "X", "Gentoo": "s", "Chinstrap":'o'}
         fig, ax = plt.subplots()
         fig.patch.set_facecolor('none') 
