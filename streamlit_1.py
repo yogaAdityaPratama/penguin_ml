@@ -104,6 +104,17 @@ def viz(st):
             background-image: url(https://wallpapers.com/images/high/colorful-abstract-art-on-samsung-full-hd-9zgi6iabu6uys5ne.webp);
             background-size: cover;
         }
+        h1{
+            color: #ffffff;
+            text-align: Center;
+        }
+        h3{
+            color: #ffffff;
+        }
+
+        .stMarkdown p {
+            color: #ffffff;
+        }
     </style>
     """
     st.markdown(bg_img, unsafe_allow_html=True)
@@ -198,15 +209,15 @@ def main():
         }
 
         h1{
-            color: #000000;
+            color: #ffffff;
             text-align: Center;
         }
         h3{
-            color: #000000;
+            color: #ffffff;
         }
 
         .stMarkdown p {
-            color: #000000;
+            color: #ffffff;
         }
 
         .css-k3w14i{
