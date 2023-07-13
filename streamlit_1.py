@@ -15,7 +15,7 @@ def pred(st):
     <style>
         [data-testid='stAppViewContainer']{
             font-style: roboto;
-            background-image: url(https://images4.alphacoders.com/206/206954.jpg);
+            background-image: url(https://www.audubon.org/news/10-fun-facts-about-penguins);
             background-size: cover;
         }
         [data-testid='stSidebar']{
@@ -96,7 +96,7 @@ def viz(st):
     <style>
         [data-testid='stAppViewContainer']{
             font-style: roboto;
-            background-image: url(https://images4.alphacoders.com/206/206954.jpg);
+            background-image: url(https://www.audubon.org/news/10-fun-facts-about-penguins);
             background-size: cover;
             
         }
